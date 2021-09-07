@@ -1,6 +1,7 @@
 .aboutintro {
     text-align: center;
     margin: 0;
+    align-items: center;
 }
 
 .aboutintro h3 {
@@ -23,6 +24,7 @@
     align-content: center;
     align-items: center;
     text-align: center;
+    
 }
 
 #about h3 {
@@ -39,7 +41,7 @@
 }
 
 #logo img {
-    max-width: 100%;
+    max-width: 300px;
     max-height: 100%;
     border-style: solid;
     border-color: var(--secondary-color);
@@ -48,4 +50,89 @@
 
 #awards {
     flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+
+.award-wrapper {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: 3% 5%;
+    min-width: 100%;
+}
+
+.award-wrapper h3 {
+ color: var(--secondary-color);   
+}
+
+.award-wrapper img {
+    background: white;
+    height: 3%;
+    margin: 0 10%;
+    
+    max-width: 300px;
+    filter: grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-50deg) saturate(600%) contrast(0.8);
+}
+
+.image-centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+#partners {
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    background-color: var(--main-color);
+}
+
+#partners h2 {
+    color: var(--secondary-color);
+    margin-bottom: 0;
+}
+
+#partners-wrapper  {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+    padding-inline-start: 0;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+#partners-wrapper li {
+    font-size: 25px;
+    text-align: center;
+    font-style: normal;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    padding: 10px;    
+    border-radius: 9px;
+    color: var(--secondary-color);
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    font-family: var(--secondary-font);
+}
+
+footer img {
+    width: 30%;
 }
