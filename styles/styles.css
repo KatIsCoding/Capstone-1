@@ -1,0 +1,178 @@
+:root {
+    --main-color: #272a31;
+    --accent-color: #ec5242;
+    --secondary-color: #d3d3d3;
+
+    --main-font: 'COCOGOOSE', sans-serif;
+    --secondary-font: 'Lato', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    position: fixed;
+}
+
+.mfont {
+    font-family: var(--main-font);
+}
+
+.sfont {
+    font-family: var(--secondary-font);
+}
+
+section {
+    display: flex;
+}
+
+.introduction {
+    display: flex;
+    flex-direction: column;
+    background-image: url("/src/intro-bg.jpg");
+    margin-left: 5%;
+    justify-items: center;
+}
+
+
+
+.introduction h4{
+    margin-top: 80px;
+    margin-bottom: 0;
+    font-family: var(--secondary-font);
+    color: var(--accent-color);
+    
+}
+
+.introduction h1{
+    margin-top: 0;
+    font-family: var(--main-font);
+    font-size: 200%;
+    font-weight: 100;
+    color: var(--accent-color);  
+}
+
+.introduction span {
+    font-family: var(--secondary-font);
+    font-weight: 100;
+    max-width: 402px;
+    font-size: 100%;
+    background: var(--secondary-color);
+    border-color: white;
+    padding: 10px;
+    margin-right: 5%;
+}
+
+.introduction h3 {
+    font-family: var(--main-font);
+    font-weight: normal;
+    font-size: 15px;
+    margin-bottom: 0;
+}
+
+.introduction h5 {
+    font-family: var(--secondary-font);
+    margin-top: 0;
+    margin-bottom: 100px;
+}
+
+
+#program-description {
+    
+    background: var(--main-color);
+    background-image: radial-gradient(black 2px, transparent 0);
+    background-size: 15px 15px;
+    background-position: -19px -19px;
+      
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#program-header {
+    color: var(--secondary-color);
+}
+
+
+
+.program-content {
+    width: 90%;
+    background-color: rgba(211, 211, 211, 0.2);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 10px;
+    height: 85px;
+}
+
+.program-content span {
+    color: var(--secondary-color);
+}
+
+.card-title {
+    color: var(--accent-color);
+}
+
+.card-description {
+    color: var(--secondary-color);
+    max-width: 40%;
+    margin: 10px;
+}
+
+#join-btn {
+    padding-inline: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: var(--secondary-font);
+    color: var(--secondary-color);
+    background-color: var(--accent-color);
+    border: none;
+    margin-bottom: 20px;
+}
+
+#speakers {
+    align-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#speakers {
+    font-family: var(--secondary-font);
+}
+
+.speaker {
+    display: inherit;
+    flex-direction: row;
+    margin-bottom: 30px;
+    max-width: 289px;
+    width: auto;
+}
+
+.speakerimg {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.speakerdesc {
+    display: inherit;
+    flex-direction: column;
+
+}
+
+.speakerdesc h3 {
+    margin: 0;
+}
+
+.ocupation {
+    color: var(--accent-color);
+    margin-bottom: 20px;
+    font-size: small;
+}
+
+.comment {
+    font-size: small;
+    word-break: break-all;
+}
