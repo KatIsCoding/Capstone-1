@@ -60,6 +60,7 @@ section {
     font-size: 100%;
     background: var(--secondary-color);
     border-color: white;
+    border-style: solid;
     padding: 10px;
     margin-right: 5%;
 }
