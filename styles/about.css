@@ -1,0 +1,13 @@
+.aboutintro {
+    text-align: center;
+    margin: 0;
+}
+
+.aboutintro h3 {
+    font-family: var(--secondary-font);
+    margin-bottom: 50px;
+}
+
+.aboutintro span {
+    margin-left: 5%;
+}
