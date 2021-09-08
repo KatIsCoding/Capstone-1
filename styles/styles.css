@@ -1,8 +1,14 @@
+@font-face {
+    font-family: "COCOGOOSE";
+    src: url("../fonts/Cocogoose.ttf");
+}
+
+
 :root {
   --main-color: #272a31;
   --accent-color: #ec5242;
   --secondary-color: #d3d3d3;
-  --main-font: 'COCOGOOSE', sans-serif;
+  --main-font: "COCOGOOSE";
   --secondary-font: 'Lato', sans-serif;
 }
 
@@ -43,7 +49,7 @@ section {
 .introduction {
   display: flex;
   flex-direction: column;
-  background-image: url("./src/intro-bg.jpg");
+  background-image: url("../src/intro-bg.jpg");
   margin-left: 5%;
   justify-items: center;
 }
