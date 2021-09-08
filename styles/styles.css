@@ -1,8 +1,7 @@
 @font-face {
-    font-family: "COCOGOOSE";
-    src: url("../fonts/Cocogoose.ttf");
+  font-family: "COCOGOOSE";
+  src: url("../fonts/Cocogoose.ttf");
 }
-
 
 :root {
   --main-color: #272a31;
