@@ -43,7 +43,7 @@ section {
 .introduction {
   display: flex;
   flex-direction: column;
-  background-image: url("/src/intro-bg.jpg");
+  background-image: url("./src/intro-bg.jpg");
   margin-left: 5%;
   justify-items: center;
 }
