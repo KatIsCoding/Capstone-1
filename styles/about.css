@@ -50,9 +50,10 @@ footer img {
   background: white;
   height: 190px;
   margin: 0 10%;
-  min-width: 350px;
-  max-width: 350px;
-  filter: grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-50deg) saturate(600%) contrast(0.8);
+  min-width: 320px;
+  max-width: 320px;
+  filter: grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-50deg)
+    saturate(600%) contrast(0.8);
 }
 
 #logo img {
@@ -75,7 +76,7 @@ footer img {
   position: relative;
   display: flex;
   justify-content: center;
-  margin: 3% 5%;
+  margin: 3% 0;
   min-width: 100%;
 }
 
@@ -133,4 +134,8 @@ footer {
   align-content: center;
   align-items: center;
   font-family: var(--secondary-font);
+}
+
+.icon h4 {
+    color: black;
 }

@@ -6,9 +6,11 @@
   --secondary-font: 'Lato', sans-serif;
 }
 
-body {
-  margin: 0;
+html, body {
+    margin: 0;
+    height: 100%;
 }
+
 
 header {
   position: fixed;
