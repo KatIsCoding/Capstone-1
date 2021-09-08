@@ -216,6 +216,7 @@ section {
   z-index: 999;
   overflow: hidden;
   background-color: white;
+  transition-duration: 0.1s;
 }
 
 .menu-content {
