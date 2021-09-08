@@ -21,6 +21,7 @@ header {
 
 .no-flex {
   display: block;
+  z-index: -1;
 }
 
 #desktop-header {
