@@ -16,7 +16,7 @@
     <!--Google Icons-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
-    <script src="./js/index.js"></script>
+    
     <title>Online Coding Course</title>
 </head>
 <body>
@@ -24,21 +24,25 @@
         <nav id="desktop-header">
             <img src="./src/icon.png" alt="">
             <div id="links">
-                <h6>About</h6>
-                <h6>Home</h6>
-                <h6>Join Program</h6>
+                <a href="./about.html">About</a>
+                <a href="./index.html">Home</a>
+                <a href="#">Join Program</a>
             </nav>
         </div>
-        <span id="mobile-btn" class="material-icons">menu</span>
-        <div class="menu">
+        <button id="mobile-btn" onclick="showMenu()">
+            <span class="material-icons">menu</span>
+        </button>
+        <div id="mobile-menu" class="menu">
             <div class="menu-content">
-                <span id="close-menu" class="material-icons">close</span>
+                <a id="close-menu" onclick="closeMenu()">
+                    <span class="material-icons">close</span>
+                </a>
 
-                <a href="./index.html">
+                <a href="./index.html" onclick="closeMenu()">
                     Home
                 </a>
 
-                <a href="./about.html">
+                <a href="./about.html" onclick="closeMenu()">
                     About
                 </a>
             </div>
@@ -140,5 +144,6 @@
             </div>
         </footer>
     </main>
+    <script src="./js/index.js"></script>
 </body>
 </html>

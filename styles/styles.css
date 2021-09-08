@@ -162,6 +162,11 @@ section {
     font-family: var(--secondary-font);
 }
 
+#mobile-btn {
+    border: none;
+    background: none;
+}
+
 #speakers-wrapper {
     display: flex;
     align-content: center;
