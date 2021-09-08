@@ -38,6 +38,7 @@
 
 #logo {
     flex-direction: column;
+    align-items: center;
 }
 
 #logo img {
@@ -71,10 +72,10 @@
 
 .award-wrapper img {
     background: white;
-    height: 3%;
+    height: 190px;
     margin: 0 10%;
-    
-    max-width: 300px;
+    min-width: 350px;
+    max-width: 350px;
     filter: grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-50deg) saturate(600%) contrast(0.8);
 }
 

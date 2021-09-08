@@ -12,6 +12,7 @@
     <!--Stylesheet-->
     <link rel="stylesheet" href="./styles/styles.css">
     <link rel="stylesheet" href="./styles/about.css">
+    <link rel="stylesheet" href="./styles/desktop.css">
     <!--Google Icons-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
@@ -21,8 +22,15 @@
 <body>
     <main>
         <header>
-            
-            <span class="material-icons">menu</span>
+            <nav id="desktop-header">
+                <img src="./src/icon.png" alt="">
+                <div id="links">
+                    <h6>About</h6>
+                    <h6>Home</h6>
+                    <h6>Join Program</h6>
+                </nav>
+            </div>
+            <span id="mobile-btn" class="material-icons">menu</span>
         </header>
         <section class="introduction aboutintro">
             <h4>console.log("Hello World!")</h4>
@@ -34,11 +42,12 @@
             <section id="logo">
                 <h3>CodeFire's logo</h3>
                 <h5>The official CodeFire's Logo</h5>
-                <img src="./src/icon.jpg" alt="">
+                <img src="./src/icon.png" alt="">
             </section>
-            <section id="awards">
+            <section class="no-flex">
                 <h3>See past CodeFire's awards</h3>
                 <h5>These awards are proof of what we do is working and having an impact in the real world</h5>
+                <div id="awards">
                 <div class="award-wrapper"> 
                     <img src="./src/award1.png" alt="">
                     <h3 class="image-centered">2021 <br> Best Coding Bootcamp <br> at Swiftchup</h3>
@@ -48,8 +57,9 @@
                     <img src="./src/award2.png" alt="">
                     <h3 class="image-centered">2021 <br> Best Coding Bootcamp <br> at CareerKarma</h3>
                 </div>
+            </div>
             </section>
-            <section id="partners">
+            <section class="partners aboutpartners">
                 <h2>Partner</h2>
                 <ul id="partners-wrapper">
                     <li>Google</li>
@@ -60,8 +70,8 @@
                 </ul>
             </section>
         </section>
-        <footer>
-            <img src="./src/icon.jpg" alt="">
+        <footer class="icon">
+            <img src="./src/icon.png" alt="">
             <h4>CodeFire is a registered corporation</h4>
         </footer>
     </main>

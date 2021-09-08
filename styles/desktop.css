@@ -1,18 +1,19 @@
 @media screen and (min-width: 768px){
     header {
-        width: 100%;
-        font-family: var(--secondary-font);
+        
         
     }
     .descriptions {
         display: flex;
         flex-direction: row;
+        justify-content: center;
     }
 
     .program-content {
-        height: 195px;
+        height: max-content;
+        min-height: 200px;
         flex-direction: column;
-        width: 215px;
+        width: 19%;
         margin-left: 3px;
         margin-right: 3px;
         text-align: center;
@@ -81,8 +82,36 @@
         margin: 30px 0;
     }
 
-    #program-description h3 {
-        margin: 30px 0;
+    .aboutpartners {
+        display: none;
     }
+
+    .icon {
+        background-color: var(--main-color);
+    }
+    
+
+    #awards {
+        display: flex;
+        flex-direction: row;
+        gap: 0;
+    }
+
+    .award-wrapper {
+        margin: 40px 0;
+        min-width: 57%;
+    }
+
+    #desktop-footer .icon {
+        background-color: white;
+    }
+
+    #desktop-footer h4 {
+        color: black;
+    }
+
+    
+
+    
 
 }
