@@ -20,8 +20,12 @@ function closeMenu() {
 
 window.onload = function asd() {
     if (window.screen.width >= 768) {
-        const button = document.getElementById("join-btn")
+        const button = searchID("join-btn")
         console.log(button)
         button.innerText = "SEE ALL THE PROGRAM CONTENT HERE"
-    }    
+    }
+    
+    
+    showMenu()
+    closeMenu()
 }

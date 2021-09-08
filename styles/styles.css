@@ -157,7 +157,7 @@ section {
     display: block;
 }
 
-#speakers h3 {
+#speakersHeader {
     text-align: center;
     font-family: var(--secondary-font);
 }
@@ -199,6 +199,7 @@ section {
 }
 
 .speakerdesc h3 {
+    text-align: start;
     margin: 0;
 }
 
@@ -210,7 +211,7 @@ section {
 
 .comment {
     font-size: small;
-    word-break: break-all;
+    word-break: break-word;
 }
 
 #desktop-footer {
