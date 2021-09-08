@@ -89,14 +89,15 @@
     right: 0;
 }
 
-#partners {
+.partners {
+    text-align: center;
     width: 100%;
     justify-content: center;
     flex-direction: column;
     background-color: var(--main-color);
 }
 
-#partners h2 {
+.partners h2 {
     color: var(--secondary-color);
     margin-bottom: 0;
 }

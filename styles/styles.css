@@ -7,12 +7,19 @@
     --secondary-font: 'Lato', sans-serif;
 }
 
+
+
 body {
     margin: 0;
 }
 
 header {
     position: fixed;
+    background: white;
+}
+
+#desktop-header {
+    display: none;
 }
 
 .mfont {
@@ -135,21 +142,32 @@ section {
 }
 
 #speakers {
+    display: block;
+}
+
+#speakers h3 {
+    text-align: center;
+    font-family: var(--secondary-font);
+}
+
+#speakers-wrapper {
+    display: flex;
     align-content: center;
     flex-direction: column;
     align-items: center;
 }
 
-#speakers {
+#speakers-wrapper {
     font-family: var(--secondary-font);
 }
 
 .speaker {
-    display: inherit;
+    display: flex;
     flex-direction: row;
     margin-bottom: 30px;
     max-width: 289px;
     width: auto;
+    
 }
 
 .speakerimg {
@@ -176,4 +194,8 @@ section {
 .comment {
     font-size: small;
     word-break: break-all;
+}
+
+#desktop-footer {
+    display: none;
 }

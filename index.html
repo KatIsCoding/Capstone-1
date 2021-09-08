@@ -11,16 +11,25 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap" rel="stylesheet">
     <!--Stylesheet-->
     <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./styles/about.css">
     <link rel="stylesheet" href="./styles/desktop.css">
     <!--Google Icons-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
-
+    <script src="./js/index.js"></script>
     <title>Online Coding Course</title>
 </head>
 <body>
     <header>
-        <span class="material-icons">menu</span>
+        <div id="desktop-header">
+            <img src="./src/icon.jpg" alt="">
+            <div id="links">
+                <h6>About</h6>
+                <h6>Home</h6>
+                <h6>Join Program</h6>
+            </div>
+        </div>
+        <span id="mobile-btn" class="material-icons">menu</span>
     </header>
     <main>
         <section class="introduction">
@@ -32,37 +41,39 @@
         </section>
         <section id="program-description">
             <h3 id="program-header" class="sfont">How is life in CodeFire </h3>
+                <div class="descriptions">
+                    <div class="program-content">
+                        <span class="material-icons">schedule</span>
+                        <h3 class="card-title sfont">Self driven</h3>
+                        <h5 class="card-description sfont">Complete the program at your own pace, only you and your will</h5>
+                    </div>
 
-                <div class="program-content">
-                    <span class="material-icons">schedule</span>
-                    <h3 class="card-title sfont">Self driven</h3>
-                    <h5 class="card-description sfont">Complete the program at your own pace, only you and your will</h5>
+                    <div class="program-content">
+                        <span class="material-icons">support_agent</span>
+                        <h3 class="card-title sfont">Support</h3>
+                        <h5 class="card-description sfont">Get support from our staff members whenever you need it!</h5>
+                    </div>
+
+                    <div class="program-content">
+                        <span class="material-icons">face</span>
+                        <h3 class="card-title sfont">Social</h3>
+                        <h5 class="card-description sfont">Talk with others that are taking the bootcamp and improve your social skills!</h5>
+                    </div>
+
+                    <div class="program-content">
+                        <span class="material-icons">schedule</span>
+                        <h3 class="card-title sfont">Self driven</h3>
+                        <h5 class="card-description sfont">Program description</h5>
+                    </div>
+
+                    <div class="program-content">
+                        <span class="material-icons">schedule</span>
+                        <h3 class="card-title sfont">Self driven</h3>
+                        <h5 class="card-description sfont">Program description</h5>
+                    </div>
+
+                    
                 </div>
-
-                <div class="program-content">
-                    <span class="material-icons">support_agent</span>
-                    <h3 class="card-title sfont">Support</h3>
-                    <h5 class="card-description sfont">Get support from our staff members whenever you need it!</h5>
-                </div>
-
-                <div class="program-content">
-                    <span class="material-icons">face</span>
-                    <h3 class="card-title sfont">Social</h3>
-                    <h5 class="card-description sfont">Talk with others that are taking the bootcamp and improve your social skills!</h5>
-                </div>
-
-                <div class="program-content">
-                    <span class="material-icons">schedule</span>
-                    <h3 class="card-title sfont">Self driven</h3>
-                    <h5 class="card-description sfont">Program description</h5>
-                </div>
-
-                <div class="program-content">
-                    <span class="material-icons">schedule</span>
-                    <h3 class="card-title sfont">Self driven</h3>
-                    <h5 class="card-description sfont">Program description</h5>
-                </div>
-
                 <a href="about.html">
                     <button id="join-btn" class="sfond">Join CodeFire</button>
                 </a>
@@ -70,35 +81,51 @@
 
         <section id="speakers">
             <h3>Featured speakers</h3>
+            <div id="speakers-wrapper">
+                <div class="speaker">
+                    <img class="speakerimg" src="./src/axel.png" alt="">
+                    <div class="speakerdesc">
+                        <h3>Nombre de la persona</h3>
+                        <span class="ocupation">Microsoft Dev</span>
+                        <span class="comment">Best coding bootcamp</span>
+                    </div>
+                </div>
 
-            <div class="speaker">
-                <img class="speakerimg" src="https://media.glamour.com/photos/5a425fd3b6bcee68da9f86f8/1:1/w_741,h_741,c_limit/best-face-oil.png" alt="">
-                <div class="speakerdesc">
-                    <h3>Nombre de la persona</h3>
-                    <span class="ocupation">Ocupacion</span>
-                    <span class="comment">COmentario pro del xdddd</span>
+                <div class="speaker">
+                    <img class="speakerimg" src="https://media.glamour.com/photos/5a425fd3b6bcee68da9f86f8/1:1/w_741,h_741,c_limit/best-face-oil.png" alt="">
+                    <div class="speakerdesc">
+                        <h3>Nombre de la persona</h3>
+                        <span class="ocupation">Microsoft Dev</span>
+                        <span class="comment">Best coding bootcamp</span>
+                    </div>
+                </div>
+
+                <div class="speaker">
+                    <img class="speakerimg" src="https://media.glamour.com/photos/5a425fd3b6bcee68da9f86f8/1:1/w_741,h_741,c_limit/best-face-oil.png" alt="">
+                    <div class="speakerdesc">
+                        <h3>Nombre de la persona</h3>
+                        <span class="ocupation">Microsoft Dev</span>
+                        <span class="comment">Best coding bootcamp</span>
+                    </div>
                 </div>
             </div>
-
-            <div class="speaker">
-                <img class="speakerimg" src="https://media.glamour.com/photos/5a425fd3b6bcee68da9f86f8/1:1/w_741,h_741,c_limit/best-face-oil.png" alt="">
-                <div class="speakerdesc">
-                    <h3>Nombre de la persona</h3>
-                    <span class="ocupation">Ocupacion</span>
-                    <span class="comment">COmentario pro del xdddd</span>
-                </div>
-            </div>
-
-            <div class="speaker">
-                <img class="speakerimg" src="https://media.glamour.com/photos/5a425fd3b6bcee68da9f86f8/1:1/w_741,h_741,c_limit/best-face-oil.png" alt="">
-                <div class="speakerdesc">
-                    <h3>Nombre de la persona</h3>
-                    <span class="ocupation">Ocupacion</span>
-                    <span class="comment">COmentario pro del xdddasdasdasdasdasdasdasdasdasdasdasdd</span>
-                </div>
-            </div>
-
         </section>
+        <footer id="desktop-footer">
+            <div class="partners">
+                <h2>Partner</h2>
+                <ul id="partners-wrapper">
+                    <li>Google</li>
+                    <li>Facebook</li>
+                    <li>Microverse</li>
+                    <li>Uber</li>
+                    <li>Twitter</li>
+                </ul>
+            </div>
+            <div class="icon">
+                <img src="./src/icon.jpg" alt="">
+                <h4>CodeFire is a registered corporation</h4>
+            </div>
+        </footer>
     </main>
 </body>
 </html>

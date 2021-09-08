@@ -1,3 +1,88 @@
 @media screen and (min-width: 768px){
-    
+    header {
+        width: 100%;
+        font-family: var(--secondary-font);
+        
+    }
+    .descriptions {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .program-content {
+        height: 195px;
+        flex-direction: column;
+        width: 215px;
+        margin-left: 3px;
+        margin-right: 3px;
+        text-align: center;
+    }
+
+    #join-btn {
+        background: none;
+        text-decoration: underline;
+    }
+
+    #mobile-btn {
+        display: none;
+    }
+
+    #desktop-header {
+        display: flex;
+        width: 100%;
+    }
+
+    #desktop-header img {
+        width: 100px;
+        height: 60px;
+    }
+
+    #links {
+        text-align: end;
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+    }
+
+    #links h6 {
+        margin: 20px 20px;
+        font-size: large;
+    }
+
+    #speakers-wrapper {
+        display: grid;
+        justify-content: center;
+        gap: 90px;
+        grid-template-columns: auto auto;
+        grid-auto-rows: auto;
+    }
+
+    #desktop-footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .icon {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        font-family: var(--secondary-font);
+    }
+
+    .program-content * {
+        margin: 0;
+    }
+
+    #program-description a {
+        margin: 30px 0;
+    }
+
+    #program-description h3 {
+        margin: 30px 0;
+    }
+
 }
