@@ -1,6 +1,6 @@
 const SPEAKERS = [
   {
-    img: '../src/axel.png',
+    img: './src/axel.png',
     name: 'Axel',
     ocupation: 'Microsoft Dev',
     description: 'I got my job thanks to you guys, just the best coding bootcamp I ever had',
