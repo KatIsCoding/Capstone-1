@@ -29,6 +29,11 @@
     width: 100%;
   }
 
+  .award-wrapper img {
+    min-width: 350px;
+    max-width: 350px;
+  }
+
   #desktop-header img {
     width: 100px;
     height: 60px;
@@ -77,7 +82,6 @@
     margin: 0;
   }
 
-
   #program-description a {
     margin: 30px 0;
   }
@@ -97,17 +101,12 @@
     min-width: 57%;
   }
 
-  .award-wrapper img {
-      min-width: 350px;
-      max-width: 350px;
-  }
-
   #desktop-footer .icon {
     background-color: white;
   }
 
   .icon h4 {
-      color: white;
+    color: white;
   }
 
   #desktop-footer h4 {
