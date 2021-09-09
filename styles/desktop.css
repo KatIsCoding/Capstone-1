@@ -114,11 +114,10 @@
   #desktop-footer .icon h4 {
     color: black;
   }
-  
+
   #desktop-footer .partners {
     display: flex;
   }
-
 
   #socials-header {
     display: flex;
@@ -126,11 +125,10 @@
     background-color: var(--main-color);
     align-items: center;
   }
-  
+
   #socials-header * {
     color: white;
     text-decoration: none;
     margin: 5px 10px;
-
   }
 }

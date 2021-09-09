@@ -214,6 +214,10 @@ section {
   display: none;
 }
 
+.icon {
+  color: white;
+}
+
 #desktop-footer .icon {
   display: flex;
   align-items: center;
@@ -222,10 +226,6 @@ section {
 }
 
 #desktop-footer .icon h4 {
-  color: white;
-}
-
-.icon {
   color: white;
 }
 
@@ -265,4 +265,3 @@ section {
 #socials-header {
   display: none;
 }
-
