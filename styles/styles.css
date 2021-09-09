@@ -206,7 +206,22 @@ section {
 }
 
 #desktop-footer {
+  display: flex;
+}
+
+#desktop-footer .partners {
   display: none;
+}
+
+#desktop-footer .icon {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--main-color);
+}
+
+#desktop-footer .icon h4 {
+  color: white;
 }
 
 .icon {
@@ -245,3 +260,8 @@ section {
   align-self: flex-end;
   margin-bottom: 100px;
 }
+
+#socials-header {
+  display: none;
+}
+

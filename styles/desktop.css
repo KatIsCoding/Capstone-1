@@ -27,6 +27,8 @@
   #desktop-header {
     display: flex;
     width: 100%;
+    height: 47px;
+    align-items: center;
   }
 
   .award-wrapper img {
@@ -71,7 +73,7 @@
   .icon {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     align-content: center;
     align-items: center;
     font-family: var(--secondary-font);
@@ -109,7 +111,26 @@
     color: white;
   }
 
-  #desktop-footer h4 {
+  #desktop-footer .icon h4 {
     color: black;
+  }
+  
+  #desktop-footer .partners {
+    display: flex;
+  }
+
+
+  #socials-header {
+    display: flex;
+    justify-content: flex-end;
+    background-color: var(--main-color);
+    align-items: center;
+  }
+  
+  #socials-header * {
+    color: white;
+    text-decoration: none;
+    margin: 5px 10px;
+
   }
 }
