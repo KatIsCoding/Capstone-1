@@ -19,6 +19,10 @@ Currently it is only a really simple website for the Microverse Capstone 1, howe
 [Live Demo Link](https://katiscoding.github.io/Capstone-1/)
 
 
+## Demo Video
+
+[Demo Video](https://www.loom.com/share/2d40894ed3e04ef4b62436c5084f813a)
+
 ## Getting Started
 
 **This is an example of how you may give instructions on setting up your project locally.**
@@ -78,6 +82,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
+- The Creative Commons License by Cindy Shin [template](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) was used for this project 
 - Google Icons were used in the creation of this project.
 - This is a project for Microverse Coding Bootcamp
 
