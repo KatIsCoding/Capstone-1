@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap" rel="stylesheet">
+    <!--Stylesheet-->
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./styles/about.css">
+    <link rel="stylesheet" href="./styles/desktop.css">
+    <!--Google Icons-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Fontawesome Icons-->
+    <script src="https://kit.fontawesome.com/fd67c39ad5.js" crossorigin="anonymous"></script>
+
+    
+    <title>Online Coding Course</title>
+</head>
+<body>
+    <header>
+        <div id="socials-header">
+            <a href="https://twitter.com/fabriziogr211">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a href="https://github.com/KatIsCoding">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="#">Logout</a>
+            <a href="#">My page</a>
+        </div>
+        <nav id="desktop-header">
+            <a href="index.html">
+                <img src="./src/icon.png" alt="">
+            </a>
+            <div id="links">
+                <a href="./index.html">Home</a>
+                <a href="./about.html">About</a>
+                <a href="#">Join Program</a>
+            </div>
+        </nav>
+        <button type="button" id="mobile-btn" onclick="showMenu()">
+            <span class="material-icons">menu</span>
+        </button>
+        <div id="mobile-menu" class="menu">
+            <div class="menu-content">
+                <a id="close-menu" onclick="closeMenu()">
+                    <span class="material-icons">close</span>
+                </a>
+
+                <a href="./index.html" onclick="closeMenu()">
+                    Home
+                </a>
+
+                <a href="./about.html" onclick="closeMenu()">
+                    About
+                </a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="introduction">
+            <h4>console.log("Hello World!")</h4>
+            <h1>BEST CODING BOOTCAMP, CodeFire</h1>
+            <span>Join the best coding bootcamp, winer of multiple awards and forming a lot of current professional developers since 2016.</span>
+            <h3>Be part of the next tech revolution with our help</h3>
+            <h5>Go to contact page for more info</h5>
+        </section>
+        <section id="program-description">
+            <h3 id="program-header" class="sfont">How is life in CodeFire </h3>
+                <div class="descriptions">
+                    <div class="program-content">
+                        <span class="material-icons">schedule</span>
+                        <h3 class="card-title sfont">Self driven</h3>
+                        <h5 class="card-description sfont">Complete the program at your own pace, only you and your will</h5>
+                    </div>
+
+                    <div class="program-content">
+                        <span class="material-icons">support_agent</span>
+                        <h3 class="card-title sfont">Support</h3>
+                        <h5 class="card-description sfont">Get support from our staff members whenever you need it!</h5>
+                    </div>
+
+                    <div class="program-content">
+                        <span class="material-icons">face</span>
+                        <h3 class="card-title sfont">Social</h3>
+                        <h5 class="card-description sfont">Improve your social skills by talking to other students!</h5>
+                    </div>
+
+                    <div class="program-content">
+                        <span class="material-icons">code</span>
+                        <h3 class="card-title sfont">Resources</h3>
+                        <h5 class="card-description sfont">Learn from our top-tier coding resources</h5>
+                    </div>
+
+                    <div class="program-content">
+                        <span class="material-icons">group_add</span>
+                        <h3 class="card-title sfont">Friendly</h3>
+                        <h5 class="card-description sfont">Overall we have a friendly enviroment where everyone is free to share anything!</h5>
+                    </div>
+
+                    
+                </div>
+                
+                <button type="button" id="join-btn" class="sfond">Join CodeFire</button>
+                
+        </section>
+
+        <section id="speakers">
+            <h3 id="speakersHeader">Featured speakers</h3>
+            <div id="speakers-wrapper">
+            </div>
+        </section>
+        <footer id="desktop-footer">
+            <div class="partners">
+                <h2>Partner</h2>
+                <ul id="partners-wrapper">
+                    <li>Google</li>
+                    <li>Facebook</li>
+                    <li>Microverse</li>
+                    <li>Uber</li>
+                    <li>Twitter</li>
+                </ul>
+            </div>
+            <div class="icon">
+                <img src="./src/icon.png" alt="">
+                <h4>CodeFire is a registered corporation</h4>
+            </div>
+        </footer>
+    </main>
+    <script src="./js/index.js"></script>
+    <script src="./js/speakers.js"></script>
+</body>
+</html>

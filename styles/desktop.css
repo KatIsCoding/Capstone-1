@@ -1,0 +1,134 @@
+@media screen and (min-width: 768px) {
+  .descriptions {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .program-content {
+    height: max-content;
+    min-height: 200px;
+    flex-direction: column;
+    width: 19%;
+    margin-left: 3px;
+    margin-right: 3px;
+    text-align: center;
+  }
+
+  #join-btn {
+    background: none;
+    text-decoration: underline;
+  }
+
+  #mobile-btn {
+    display: none;
+  }
+
+  #desktop-header {
+    display: flex;
+    width: 100%;
+    height: 47px;
+    align-items: center;
+  }
+
+  .award-wrapper img {
+    min-width: 350px;
+    max-width: 350px;
+  }
+
+  #desktop-header img {
+    width: 100px;
+    height: 60px;
+  }
+
+  #links {
+    text-align: end;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+  }
+
+  #links a {
+    text-decoration: none;
+    color: black;
+    margin: 20px 20px;
+    font-size: large;
+  }
+
+  #speakers-wrapper {
+    display: grid;
+    justify-content: center;
+    gap: 90px;
+    grid-template-columns: auto auto;
+    grid-auto-rows: auto;
+  }
+
+  #desktop-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    font-family: var(--secondary-font);
+    background-color: var(--main-color);
+  }
+
+  .program-content * {
+    margin: 0;
+  }
+
+  #program-description a {
+    margin: 30px 0;
+  }
+
+  .aboutpartners {
+    display: none;
+  }
+
+  #awards {
+    display: flex;
+    flex-direction: row;
+    gap: 0;
+  }
+
+  .award-wrapper {
+    margin: 40px 0;
+    min-width: 57%;
+  }
+
+  #desktop-footer .icon {
+    background-color: white;
+  }
+
+  .icon h4 {
+    color: white;
+  }
+
+  #desktop-footer .icon h4 {
+    color: black;
+  }
+
+  #desktop-footer .partners {
+    display: flex;
+  }
+
+  #socials-header {
+    display: flex;
+    justify-content: flex-end;
+    background-color: var(--main-color);
+    align-items: center;
+  }
+
+  #socials-header * {
+    color: white;
+    text-decoration: none;
+    margin: 5px 10px;
+  }
+}
